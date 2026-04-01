@@ -1,6 +1,6 @@
 plugins {
     id("com.android.library") version "8.7.0"
-    id("org.jetbrains.kotlin.android") version "2.3.20"
+    id("org.jetbrains.kotlin.android") version "1.9.24"
     id("maven-publish")
 }
 
@@ -36,7 +36,7 @@ android {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.3.20")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.24")
     implementation("androidx.core:core-ktx:1.15.0")
     api("com.google.android.material:material:1.13.0")
 
